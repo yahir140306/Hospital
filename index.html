@@ -5,13 +5,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./styles.css">
-	<link rel="shortcut icon" href="./Images/Icon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="./Images/Icon.svg" type="image/x-icon">
 	<title> Hospital Chakalito</title>
 </head>
 
 <body>
 	<header class="header">
-		<img src="./Images/activity-heartbeat.svg" alt="logo" id="logo">
+		<img src="./Images/logo.svg" alt="logo" id="logo">
 		<article>
 			<h1>Hospital Chakalito.</h1>
 			<h2>Bienvenido al Hospital Del Estado.</h2>
@@ -19,48 +19,110 @@
 	</header>
 
 	<nav>
-		<a href="#">Tramites</a>
-		<a href="#">Pensiones IMSS</a>
-		<a href="#">Guias</a>
-		<a href="#">Tratamientos</a>
-		<a href="#">Estados</a>
+		<a href="./Pages/tramites.html" target="_blank">
+			Tramites
+		</a>
+		<a href="./Pages/pensiones.html" target="_blank">
+			Pensiones IMSS
+		</a>
+		<a href="./Pages/guias.html" target="_blank">
+			Guias
+		</a>
+		<a href="./Pages/tratamientos.html" target="_blank">
+			Tratamientos
+		</a>
+		<a href="./Pages/estados.html" target="_blank">
+			Estados
+		</a>
 	</nav>
 
 	<main>
 		<section class="cards">
-			<article id="card1">
-				<h3>Column 1, Row 1</h3>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, molestiae?</p>
-				<a href="#">Link 1</a>
+			<article id="card1" class="card">
+				<h3>
+					¡Agenda tu Cita en el IMSS de Forma Rápida y
+					Sencilla!
+				</h3>
+				<p>
+					Si estás afiliado al IMSS, tienes derecho a atención médica de calidad. Te brindamos los métodos
+					simples para solicitar tus citas y acceder a los servicios que necesitas, sin restricciones.
+				</p>
+				<a href="#">Informacion</a>
 			</article>
 
-			<article id="card2">
-				<h3>Column 2, Row 1</h3>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, libero.</p>
-				<a href="#">Link 2</a>
+			<article id="card2" class="card">
+				<h3>Clínicas IMSS Cerca de Mí</h3>
+				<p>
+					Si buscas una clínica IMSS cercana en tu localidad, ¡estás en el lugar correcto! Te ofrecemos un
+					listado detallado de instalaciones en cada estado de México. Solo elige tu estado y
+					<strong>descubre tus todas las Clínicas y hospitales IMSS cerca de tí.</strong>
+				</p>
+				<a href="#">Informacion</a>
 			</article>
 
-			<article id="card3">
-				<h3>Column 1, Row 2</h3>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quis.</p>
-				<a href="#">Link 3</a>
+			<article id="card3" class="card">
+				<h3>Solicitar Cita IMSS </h3>
+				<p>Agendar tu cita en el IMSS es más fácil que nunca.
+					<strong>Solo necesitas tu CURP y correo electrónico</strong>.
+					¿No conoces tu CURP? Puedes consultarlo fácilmente a través de la página
+					oficial del gobierno en el siguiente enlace:
+				</p>
+				<a href="#">Informacion</a>
 			</article>
 
-			<article id="card4">
-				<h3>Column 2, Row 2</h3>
-				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, culpa.</p>
-				<a href="#">Link 4</a>
-			</article>
-			<article id="card5">
-				<h3>Column 1, Row 2</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nemo?</p>
-				<a href="#">Link 3</a>
+			<article id="card4" class="card">
+				<h3>Requisitos para Solicitud de Citas </h3>
+				<p>Antes de solicitar tu cita, asegúrate de tener a mano:</p>
+				<ul>
+					<li>
+						<strong>CURP</strong>: Identificación única de 18 dígitos.
+					</li>
+					<li>
+						<strong>Número de Seguro Social (NSS)</strong>: Identificación asignada por el IMSS.
+					</li>
+					<li>
+						Dirección de <strong>correo electrónico</strong>.
+					</li>
+				</ul>
+				<a href="#">Informacion</a>
 			</article>
 
-			<article id="card6">
-				<h3>Column 2, Row 2</h3>
-				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, excepturi.</p>
-				<a href="#">Link 4</a>
+			<article id="card5" class="card">
+				<h3>Cita por teléfono</h3>
+				<p>¿Prefieres el teléfono? Llama al <strong>01800 681 2525</strong> y agenda tu cita de manera rápida y
+					segura. El IMSS te atenderá todos los días del año por teléfono. Llama ahora y agenda tu cita en
+					menos de 5 minutos.
+				</p>
+				<a href="#">Informacion</a>
+			</article>
+
+			<article id="card6" class="card">
+				<h3>Agendar Cita Presencialmente</h3>
+				<p><strong>Si te sientes más cómodo agendando en persona</strong>, acude a tu Unidad de Medicina
+					Familiar (UMF) y en el mostrador te ayudarán a sacar tu cita. Recuerda tener a mano tu CURP, número
+					de Seguro Social y dirección de correo electrónico. Si no sabes cual es la UMF más cercana, puedes
+					consultarla en nuestro directorio:
+				</p>
+				<a href="#">Informacion</a>
+			</article>
+
+			<article id="card7" class="card">
+				<h3>Agendar Citas por Internet</h3>
+				<p>¿Quieres agilizar el proceso? Usa la web oficial para agendar en línea. <strong>Ingresa tu CURP y
+						correo, elige fecha y horario, ¡y listo!</strong> Todo el proceso lo puedes hacer a través del
+					siguiente enlace:
+				</p>
+				<a href="#">Informacion</a>
+			</article>
+
+			<article id="card8" class="card">
+				<h3>Agendar Citas a Través del Celular</h3>
+				<p>Puedes descargar la app móvil gratuita para iOS y Android oficial del IMSS. Agendar citas es más
+					sencillo desde tu celular, ¡en cualquier momento y lugar! A continuación te dejamos los enlaces de
+					descarga dependiendo si eres Android o Iphone:
+				</p>
+				<a href="#">Informacion</a>
+			</article>
 		</section>
 	</main>
 	<aside>
@@ -70,14 +132,12 @@
 					<img src="./Images/director.jfif" alt="">
 				</article>
 				<article>
-					<h2>Lorem ipsum dolor sit amet.</h2>
+					<h2>Doctor Guillermo Memin Gutierrez.</h2>
 					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi illum consequuntur et a saepe
-						sit
-						tenetur excepturi ratione amet eos accusantium, esse nihil. Illum est dolores quae aliquam illo.
-						Tempore.
+						Estudio En la Universidad Autonoma de Mexico, es de reconoer su importante trayectora a lo largo
+						de 25 años en este ambito, en clinicas ckacalin no esperes menos por tu salud
 					</p>
-					<a href="">Link</a>
+					<a href="">Informacion</a>
 				</article>
 			</article>
 			<article class="noticia">
@@ -85,14 +145,13 @@
 					<img src="./Images/doctor.jfif" alt="">
 				</article>
 				<article>
-					<h2>Lorem ipsum dolor sit amet.</h2>
+					<h2>Dr. Fernando Vargas Bautista .</h2>
 					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi illum consequuntur et a saepe
-						sit
-						tenetur excepturi ratione amet eos accusantium, esse nihil. Illum est dolores quae aliquam illo.
-						Tempore.
+						En clinicas ckacalin creemos que tods merecen una segunda opotrunidad, este joven medico sufrio
+						desde pequeño pero encontro el refugio en sanar personas y lograr que todos pasen una grata
+						experiencia
 					</p>
-					<a href="">Link</a>
+					<a href="">Informacion</a>
 				</article>
 			</article>
 			<article class="noticia">
@@ -100,14 +159,13 @@
 					<img src="./Images/doctora.jfif" alt="">
 				</article>
 				<article>
-					<h2>Lorem ipsum dolor sit amet.</h2>
+					<h2>Sandra ramirez cordoba .</h2>
 					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi illum consequuntur et a saepe
-						sit
-						tenetur excepturi ratione amet eos accusantium, esse nihil. Illum est dolores quae aliquam illo.
-						Tempore.
+						Con la doctora sandra lejos de vivir una terrible experiencia pasaras gratos momentos en su
+						compañia, una chica de espiritu inquebrantable dispuesta a ayudar a sus pacientes hasta el
+						ultimo momento
 					</p>
-					<a href="">Link</a>
+					<a href="">Informacion</a>
 				</article>
 			</article>
 			<article class="noticia">
@@ -115,14 +173,11 @@
 					<img src="./Images/doctorPaciente.jfif" alt="">
 				</article>
 				<article>
-					<h2>Lorem ipsum dolor sit amet.</h2>
+					<h2>Dr. juan manuel crevantez cruz</h2>
 					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi illum consequuntur et a saepe
-						sit
-						tenetur excepturi ratione amet eos accusantium, esse nihil. Illum est dolores quae aliquam illo.
-						Tempore.
+						Expero en el area pulmonar, traumatologia y servicios a la disposicion de las personas
 					</p>
-					<a href="">Link</a>
+					<a href="">Informacion</a>
 				</article>
 			</article>
 			<article class="noticia">
@@ -130,14 +185,13 @@
 					<img src="./Images/Equipo.jfif" alt="">
 				</article>
 				<article>
-					<h2>Lorem ipsum dolor sit amet.</h2>
+					<h2>te invitamos a visitarnos.</h2>
 					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi illum consequuntur et a saepe
-						sit
-						tenetur excepturi ratione amet eos accusantium, esse nihil. Illum est dolores quae aliquam illo.
-						Tempore.
+						En hospitales Ckacalin S.A de C.V nos preocupanos por la salud e integridad de nuestros
+						pacientes, es nuestro trabajo y vocacion lograr que todos nuestros pacientes y sus familias se
+						lleven un buen sabor de boca
 					</p>
-					<a href="">Link</a>
+					<a href="">Informacion</a>
 				</article>
 			</article>
 

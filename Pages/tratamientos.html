@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *, ::before, ::after{
+            margin : 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .container{
+            width: 600px;
+            height: 400px;
+            overflow: hidden;
+            position: relative;
+            margin: 200px auto;
+            border-radius: 20px;
+            box-shadow: 5px 8px 12px black;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+      .container:hover{
+        transform: scale(1.1);
+        box-shadow: 13px 15px 37px black;  
+      }
+        .container img{
+            width: 100%;
+            height: 100% ;
+}
+.container p{
+    font-size: 3.6rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+
+}
+     header {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url(./Images/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 45px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#logo {
+    width: 3em;
+}
+nav {
+    text-justify: newspaper;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 5px #dfddddc0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 6px;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    border-bottom: 1px solid black;
+}
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+h2 {
+    margin: 0;
+    font-size: 24px;
+}
+pre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+
+}
+h4{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+h4 {
+ box-shadow: inset 0 0 0 0 rgb(78, 71, 70);
+ color: #000000;
+ padding: 0 .25rem;
+ margin: 0 -.25rem;
+ transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+ }
+ h4:hover {
+ color: #fff;
+ box-shadow: inset 1500px 0 0 0 #000000;;
+ }
+ h4 {
+ color: #000000;
+ font-family: 'Poppins', sans-serif;
+ font-size: 27px;
+ font-weight: 700;
+ line-height: 1.5;
+ text-decoration: none;
+ }
+h4{
+font-size: 30px;
+ }
+h4:hover{
+font-family: 'Times New Roman', Times, serif;
+font-size: 35px;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+		<img src="./enlaces/todas las imagenes/Logo.png" alt="logo" id="logo">
+		<article>
+			<h1>Hospital Chakalito.</h1>
+			<h2>Bienvenido al Hospital Del Estado.</h2>
+		</article>
+	</header>
+
+	<nav>
+		<a href="#">Tramites</a>
+		<a href="#">Pensiones IMSS</a>
+		<a href="#">Guias</a>
+		<a href="#">Tratamientos</a>
+		<a href="#">Estados</a>
+	</nav>
+    <section class="container">
+        <img src="./enlaces/todas las imagenes/tratamientos.jpg" alt="">
+        <p>Tratamientos</p>
+    </section> 
+    <pre>
+        <h3>
+            Los tratamientos en nuestros hospital pueden abarcar una amplia 
+            variedad de disciplinas médicas y enfoques terapéuticos. 
+            Aquí te proporciono una explicación más detallada de algunos 
+            tipos comunes de tratamientos hospitalarios:
+        </h3>
+    </pre>
+    <ul>
+    <h4>Tratamientos de Médicos Generales:</h4>
+        <li>
+            <p>
+                Los tratamientos médicos generales abarcan una gama diversa 
+                de intervenciones, como medicamentos, terapia intravenosa y 
+                observación clínica. Estos tratamientos son utilizados para 
+                abordar enfermedades comunes, controlar síntomas y mantener 
+                la salud general del paciente.
+            </p>
+        </li>
+        <br>
+        <h4>Tratamientos Quirúrgicos:</h4>
+       <li>
+        <p>
+            Los procedimientos quirúrgicos son intervenciones realizadas por 
+            cirujanos para abordar problemas médicos que no pueden tratarse 
+            eficazmente con métodos no invasivos. Esto incluye cirugías de 
+            emergencia y procedimientos programados que van desde la extracción 
+            de apéndices hasta la reparación de tejidos.
+        </p>
+       </li>
+        <br>
+        <h4>Quimioterapia y Radioterapia:</h4>
+        <li>
+            <p>
+                Estos tratamientos son fundamentales en la lucha contra el cáncer. 
+                La quimioterapia utiliza medicamentos para destruir o frenar el 
+                crecimiento de células cancerosas, mientras que la radioterapia 
+                utiliza radiación para dañar o destruir estas células.
+            </p>
+        </li>
+        <br>
+        <h4>Tratamientos para Enfermedades Cardiovasculares:</h4>
+        <li>
+            <p>
+                Incluyen procedimientos como la angioplastia para desbloquear 
+                arterias, la colocación de stents y cirugías de bypass. Estos 
+                tratamientos se centran en restaurar el flujo sanguíneo adecuado 
+                al corazón y otros órganos.
+            </p>
+        </li>
+        <br>
+        <h4>Rehabilitación y Fisioterapia:</h4>
+        <li>
+            <p>
+                Después de procedimientos quirúrgicos o lesiones, la rehabilitación 
+                y fisioterapia son cruciales para recuperar la funcionalidad. Incluyen 
+                ejercicios terapéuticos, masajes y otras técnicas para mejorar la movilidad 
+                y reducir el dolor.
+            </p>
+        </li>
+        <br>
+        <h4>Tratamientos Psicológicos y Psiquiátricos:</h4>
+        <li>
+            <p>
+                La salud mental es una parte integral del bienestar. Los tratamientos 
+                psicológicos y psiquiátricos incluyen terapia cognitivo-conductual, 
+                medicamentos psiquiátricos y terapia de conversación para abordar 
+                trastornos mentales y emocionales.
+            </p>
+        </li>
+        <br>
+        <h4>Cuidados Paliativos:</h4>
+        <li>
+            <p>
+                Brindan atención integral a pacientes con enfermedades crónicas o 
+                terminales, centrándose en mejorar la calidad de vida y aliviar los 
+                síntomas. Incluye el control del dolor, apoyo emocional y cuidados 
+                espirituales.
+            </p>
+        </li>
+        <br>
+        <h4>Trasplantes de Órganos:</h4>
+        <li>
+            <p>
+                Cuando un órgano no funciona adecuadamente, los trasplantes se 
+                convierten en una opción. Esto implica la donación y el trasplante 
+                de órganos como corazón, riñón o hígado para mejorar la salud y 
+                prolongar la vida del receptor.
+            </p>
+        </li>
+        <br>
+        <h4>Terapias Alternativas y Complementarias:</h4>
+        <li>
+            <p>
+                Incluyen tratamientos como acupuntura, medicina herbal y terapia de 
+                masajes. Aunque no son sustitutos de los enfoques médicos tradicionales, 
+                estas terapias pueden ser utilizadas de manera complementaria para mejorar 
+                el bienestar general.
+            </p>
+        </li>
+        <br>
+        <h4>Tratamientos de Rehabilitación Neurológica:</h4>
+        <li>
+            <p>
+                Diseñados para abordar condiciones neurológicas como accidentes 
+                cerebrovasculares, lesiones cerebrales traumáticas o enfermedades 
+                neuromusculares. Incluyen terapias ocupacionales, fisioterapia y 
+                entrenamiento cognitivo.
+            </p>
+        </li>
+    </ul>
+    <pre>
+        <h3>
+            
+        </h3>
+    </pre>
+</body>
+</html>

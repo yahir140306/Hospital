@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *, ::before, ::after{
+            margin : 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .container{
+            width: 600px;
+            height: 400px;
+            overflow: hidden;
+            position: relative;
+            margin: 200px auto;
+            border-radius: 20px;
+            box-shadow: 5px 8px 12px black;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+      .container:hover{
+        transform: scale(1.1);
+        box-shadow: 13px 15px 37px black;  
+      }
+        .container img{
+            width: 100%;
+            height: 100% ;
+}
+.container p{
+    font-size: 3.6rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+
+}
+     header {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url(./Images/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 45px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#logo {
+    width: 3em;
+}
+nav {
+    text-justify: newspaper;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 5px #dfddddc0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 6px;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    border-bottom: 1px solid black;
+}
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+h2 {
+    margin: 0;
+    font-size: 24px;
+}
+pre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+
+}
+h4{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+h4 {
+ box-shadow: inset 0 0 0 0 rgb(78, 71, 70);
+ color: #000000;
+ padding: 0 .25rem;
+ margin: 0 -.25rem;
+ transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+ }
+ h4 {
+ color: #000000;
+ font-family: 'Poppins', sans-serif;
+ font-size: 27px;
+ font-weight: 700;
+ line-height: 1.5;
+ text-decoration: none;
+ }
+h4{
+font-size: 30px;
+ }
+h4:hover{
+font-family: 'Times New Roman', Times, serif;
+font-size: 35px;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+		<img src="./enlaces/todas las imagenes/Logo.png" alt="logo" id="logo">
+		<article>
+			<h1>Hospital Chakalito.</h1>
+			<h2>Bienvenido al Hospital Del Estado.</h2>
+		</article>
+	</header>
+
+	<nav>
+		<a href="#">Tramites</a>
+		<a href="#">Pensiones IMSS</a>
+		<a href="#">Guias</a>
+		<a href="#">Tratamientos</a>
+		<a href="#">Estados</a>
+	</nav>
+    <section class="container">
+        <img src="./enlaces/todas las imagenes/estado.jpg" alt="">
+        <p>Estados</p>
+    </section>
+    <pre>
+        <h3>
+            En el corazón de cada hospital y clínica late el compromiso inquebrantable 
+            de cuidar la salud y bienestar de nuestras comunidades. Son faros de esperanza, 
+            donde la dedicación y el cuidado se entrelazan para tejer historias de recuperación 
+            y resiliencia.En estas instituciones, no solo encontramos médicos y enfermeros, 
+            sino héroes cotidianos que enfrentan desafíos con valentía. Cada sala es un testimonio 
+            de la compasión, donde se ofrecen manos amigas y tratamientos innovadores.
+        </h3>
+    </pre> 
+    <ul>
+        <h4>Clínicas en Morelos</h4>
+        <li>
+            <p>
+                En Morelos hay un total de 24 clínicas y hospitales. Localiza de manera fácil tu 
+                centro de atención médica que te pertenece según tu domicilio. Hospitales, Unidades 
+                de Médicina Familiar, HES, HC, HGPMF .etc. es lo que puedes encontrar que dispone los 
+                Hospitales Chakalitos cerca de tí. Entra en la ficha de la clínica u hospital para 
+                acceder más información útil como pueden ser horarios, como pedir cita y ver los servicios.
+            </p>
+        </li>
+        <br>
+        <h4>Clínicas en Zacatecas</h4>
+        <li>
+            <p>
+                Hospital General de Zona, Unidades de Médicina Familiar, HC, UMAA, HGZ .etc. es lo que 
+                podrás encontrarlo que disponen los Hospitales Chakalito en el estado de Zacatecas. En 
+                Zacatecas tenemos 36 clínicas y hospitales. Localiza de manera fácil el centro médico 
+                que te pertenece por tu domicilio.
+            </p>
+        </li>
+        <br>
+        <h4>Clinicas en Veracruz</h4>
+        <li>
+            <p>
+                En estos momentos hay 120 clínicas en el estado de Veracruz. Localiza de manera fácil 
+                el centro de tu ciudad que te pertenece por tu domicilio. Hospitales, Unidades de Médicina 
+                Familiar, HGZMF, HGZMF, HGS .etcetera. es lo que podrás encontrar lo que ofrecen nuestros 
+                hospitales en Veracruz. Accede a la ficha del hospital o clínica solo dando en el menu donde 
+                dice Tramite para acceder más información como por ejemplo horarios, como pedir cita y ver 
+                los servicios.
+            </p>
+        </li>
+        <br>
+        <h4>Clinicas en Yucatan</h4>
+        <li>
+            <p>
+                Hospitales, Unidades de Médicina Familiar, HGZMF, CCSM, HGR entre otros es lo que puedes 
+                encontrar que disponen en el estado de Yucatán. Dentro de cada ficha podrás acceder a una 
+                página con información útil y cómo pedir cita paso a paso. En el estado de Yucatán un total 
+                de 30 centros médicos. 
+            </p>
+        </li>
+        <br>
+        <h4>Clinicas en Sonora</h4>
+        <li>
+            <p>
+                En el estado de Sonora tenemos 76 centros médicos. Estas a un paso de encontrar el centro médico 
+                que te corresponde por tu domicilio. Los Hospitales Chakalito pone a tu disposición Hospitales, 
+                Unidades de Médicina Familiar, HGP, HGSMF, UDDX entre otros. Haciendo clic en + VER FICHA irás 
+                a una página con toda la información (cómo pedir cita, horarios .etc.).
+            </p>
+        </li>
+        <br>
+        <h4>Clinicas en Tlaxcala</h4>
+        <li>
+            <p>
+                Los Hospitales Chakalito pone a tu disposición Hospitales, UMF, UMFR, HGS, HTO y otros tipos. 
+                Entra a la ficha de la clínica u hospital para acceder más información útil como por ejemplo 
+                horarios, como pedir cita y ver los servicios. Actualmente existen 17 clínicas en Tlaxcala 
+                gestionados por el Instituto Méxicano de Seguro Social. Aquí abajo tienes un directorio con 
+                las clínicas y hospitales cercanas a tí.
+            </p>
+        </li>
+        <br>
+        <h4>Clinicas en Tabasco</h4>
+        <li>
+            <p>
+                Actualmente tenemos 34 centros en el estado de Tabasco por parte de Hospitales Chakalito. 
+                Aquí abajo tienes un directorio de los centros médicos cercanas a tí. Los Hospitales Chakalito 
+                pone a tu disposición Hospitales, Unidades de Médicina Familiar, HGZ-UMAA, UMFH, HGRMF .etcetera.. 
+                En cada ficha podrás acceder a un artículo con información útil y cómo pedir cita paso a paso.
+            </p>
+        </li>
+        <br>
+        <h4>Clinicas en Sinaloa</h4>
+        <li>
+            <p>
+                Hospitales, UMF, UMRM, UDDX, HC y otros tipos es lo que podrás encontrar que disponen en Sinaloa. 
+                Entra en la ficha de la clínica u hospital para poder ver datos e instrucciones como por ejemplo 
+                horarios, como pedir cita y ver los servicios. En la actualidad tenemos 50 clínicas y hospitales 
+                en Sinaloa gestionados por el IMSS. Te dejamos aquí abajo un listado de los centros médicos del 
+                estado de Sinaloa.
+            </p>
+        </li>
+        <br>
+        <h4>Clinicas en Quintana Roo</h4>
+        <li>
+            <p>
+                Hospital General de Zona, UMF, HC, HGZ-UMAA, HGZ-UMAA .etcetera. es lo que podrás encontrar que 
+                ofrecen los Hospitale Chakalito en la región. Accede en la ficha del hospital o clínica para 
+                obtener más información como pueden ser horarios, como pedir cita y ver los servicios. Actualmente 
+                existen 14 centros médicos en Quintana Roo por parte del Instituto Méxicano de Salud Social. 
+                Encuentra de manera fácil y sencilla el centro médico que te pertenece según donde resides.
+            </p>
+        </li>
+        <br>
+        <h4>Clinicas en Queretaro</h4>
+        <li>
+            <p>
+                Hospitales, UMF, UMRM, HGZ-UMAA, LA .etc. es lo que podrás encontrar que ofrecen los Hospitales 
+                Chakalito en el estado de Querétaro. Entra en la ficha de la clínica u hospital para poder ver 
+                más información útil como pueden ser teléfono, como agendar una cita y los servicios que ofrece.
+                En Querétaro hay un total de 26 hospitales y clínicas. A continuación podrás encontrar un directorio 
+                con las clínicas y hospitales de Querétaro.
+            </p>
+        </li>
+        <br>
+        <h4>Clinicas en Oaxaca</h4>
+        <li>
+            <p>
+                Hospitales, UMF, HGRMF, HGO, UMFR .etcetera. es lo que podrás encontrar que disponemos en la región. 
+                Dentro de cada ficha accederás a una página con toda la información (Horarios, teléfonos,dirección 
+                y cómo pedir cita). En estos momentos hay 32 centros médicos en el estado de Oaxaca por parte de Hospitales 
+                Chakalito. Localiza en pocos segundos tu centro de atención médica que te pertenece según tu domicilio.
+            </p>
+        </li>
+        <br>
+        <h4>Clinicas en Puebla</h4>
+        <li>
+            <p>
+                En Puebla hay un total de 49 clínicas . Más abajo te dejamos un directorio de los centros médicos de Puebla. 
+                Podrás encontrar Hospitales, Unidades de Médicina Familiar, HTO, HTO, HGP y otros tipos. Entra en la ficha 
+                de la clínica u hospital para acceder más información útil como pueden ser teléfono, como agendar una cita 
+                y los servicios que ofrece.
+            </p>
+        </li>
+        <br>
+        <h4>Clinicas en Nuevo Leon</h4>
+        <li>
+            <p>
+                En la actualidad existen 63 clínicas y hospitales en el estado de Nuevo León. A continuación podrás encontrar 
+                un listado con las clínicas y hospitales cercanas a tí. Podrás encontrar Hospitales, UMF, HES, UMFH, HGRMF .etc.. 
+                Haciendo clic en + VER FICHA irás a un artículo con toda la información (cómo pedir cita, horarios .etc.).
+            </p>
+        </li>
+        <br>
+        <h4>Clinicas en Hidalgo</h4>
+        <li>
+            <p>
+                Hospitales, UMF, HGP, UDDX, UMRM .etc. es lo que podrás encontrar que disponen en la región. Entra a la ficha de 
+                la clínica u hospital para acceder más información como pueden ser horarios, como pedir cita y ver los servicios.
+                Actualmente existen 21 centros en el estado de Hidalgo del Instituto Méxicano de Seguro Social. 
+                A continuación podrás encontrar todas las fichas de hospitales y clínicas del estado de Hidalgo.
+            </p>
+        </li>
+    </ul>
+</body>
+</html>

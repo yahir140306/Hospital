@@ -27,6 +27,10 @@ header {
     width: 3em;
 }
 
+a {
+    cursor: pointer;
+}
+
 h1 {
     margin: 0;
     font-size: 36px;
@@ -51,7 +55,7 @@ nav a {
     color: #333;
     text-decoration: none;
     font-size: 18px;
-    margin: 0 10px;
+    margin: 5px 10px;
 }
 
 nav a:hover {
@@ -62,45 +66,54 @@ nav a:hover {
     color: white;
     margin: 10px;
     padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    gap: 2rem;
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+
+}
+
+.card {
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .cards article {
     background-color: #f2f2f2;
     padding: 20px;
-    margin: 10px;
-    height: 380px;
+    height: 48vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 10px #00000033;
+    box-shadow: 3px 3px 8px black;
 }
 
 .cards h3 {
-    margin: 0;
-    font-size: 18px;
+    margin: 2px;
+    font-size: 1.2em;
 }
 
 .cards p {
-    margin: 0;
-    font-size: 18px;
+    margin: 2px;
+    font-size: 0.9em;
     color: #ffffff;
 }
 
 .cards a {
+    width: 80px;
     display: block;
-    margin-top: 10px;
+    margin: 10px;
     padding: 10px;
     background-color: #3991e4;
     color: #fff;
     border-radius: 10px;
     text-decoration: none;
     text-align: center;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.8s ease;
 }
 
 .cards a:hover {
@@ -116,7 +129,6 @@ nav a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 300px;
     border-radius: 10px;
 }
 
@@ -128,7 +140,6 @@ nav a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 300px;
     border-radius: 10px;
 }
 
@@ -140,7 +151,6 @@ nav a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 300px;
     border-radius: 10px;
 }
 
@@ -152,7 +162,6 @@ nav a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 300px;
     border-radius: 10px;
 }
 
@@ -160,11 +169,10 @@ nav a:hover {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.7),
             rgba(0, 0, 0, 0.7)),
-        url(./Images/entradaHospital.jpg);
+        url(./Images/Images.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 300px;
     border-radius: 10px;
 }
 
@@ -172,21 +180,50 @@ nav a:hover {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.7),
             rgba(0, 0, 0, 0.7)),
-        url(./Images/entradaHospital.jpg);
+        url(./Images/internadoCreo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 300px;
     border-radius: 10px;
 }
+
+#card7 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url(./Images/lobby.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#card8 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url(./Images/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
 .noticia {
-    background: #cecccc;
+    background: #dad3d3;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
     border-radius: 15px;
     margin: 20px;
+    align-items: center;
+    box-shadow: 3px 3px 8px rgb(75, 75, 75);
+    transition: background 0.8s ease;
+}
+
+.noticia:hover {
+    background: #b0afaf;
 }
 
 .noticia article {
@@ -211,7 +248,7 @@ nav a:hover {
 }
 
 footer {
-    background: #cecccc;
+    background: #dad3d3;
     padding: 10px;
     display: flex;
     justify-content: space-around;
